@@ -1,8 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="wrapper pizza-index container">
-  <h1 class="text-center">Pizza Orders</h1>
+<h1 class="text-center">Pizza Orders</h1><br>
+<div class="wrapper pizza-index container d-flex">
+
   @foreach($pizzas as $pizza)
     <div class="pizza-item m-3 d-flex flex-wrap">
       <img src="/img/pizza.png" style="height:80px" alt="pizza icon">

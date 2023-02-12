@@ -8,7 +8,8 @@
   <p class="toppings fs-5 text-success">Extra toppings:</p>
   <ul style="list-style:none;" class="d-flex justify-content-center">
     @foreach($pizza->toppings as $topping)
-      <li class="fs-5">{{ $topping }}</li>
+      <li class="fs-5"> -{{ $topping  }}- </li> 
+
     @endforeach
   </ul>
   <form action="{{ route('pizzas.destroy', $pizza->id) }}" method="POST">
