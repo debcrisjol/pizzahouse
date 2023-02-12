@@ -116,13 +116,7 @@ footer{
     margin-top: 20px;
   }
 }
-a.back{
-  display: block;
-  text-align: center;
-  margin-top: 30px;
-  color: #5e2195;
-  margin-bottom: 20px;
-}
+
 
 /* pizza index page */
 
@@ -135,8 +129,8 @@ a.back{
     padding: 12px;
     background: #f4f4f4;
     img{
-      width: 60px;
-      display: inline-block;
+      width: 30px;
+    //   display: inline-block;
     }
     h4{
       display: inline-block;

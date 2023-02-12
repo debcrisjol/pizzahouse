@@ -19,10 +19,10 @@
     <div class="content">
         <img src="/img/pizza-house.png" alt="pizza house logo">
         <div class="title m-b-md">
-            The North's Best Pizzas
+            The Cris's Best Pizzas
         </div>
-        <p class="mssg">{{ session('mssg') }}</p>
-        <a href="{{ route('pizzas.create') }}">Order a Pizza</a>
+        <p class="mssg fs-2 text-danger text-center">{{ session('mssg') }}</p>
+        <a class="text-decoration-none text-danger text-capitalize text-center" href="{{ route('pizzas.create') }}">Order a Pizza</a>
     </div>
 </div>
 @endsection
